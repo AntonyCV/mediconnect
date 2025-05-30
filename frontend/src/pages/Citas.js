@@ -166,7 +166,7 @@ function Citas() {
             <i className="fa-solid fa-calendar-check"></i>
             <span>Mis Citas</span>
           </Link>
-          <Link to="/reclamaciones" className="sidebar-link" title="Libro de reclamaciones">
+          <Link to="/reclamos" className="sidebar-link" title="Libro de reclamaciones">
             <i className="fa-solid fa-book"></i>
             <span>Reclamaciones</span>
           </Link>

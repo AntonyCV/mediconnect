@@ -17,6 +17,7 @@ import Servicios from './pages/Servicios';
 import ServicioPersona from './pages/ServicioPersona';
 import ServicioEvento from './pages/ServicioEvento';
 import ListaDoctores from './pages/ListaDoctores';
+import Reclamos from './pages/Reclamos';
 import Reserva from "./pages/Reserva";
 import Citas from "./pages/Citas";
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -39,6 +40,7 @@ function App() {
         <Route path="/servicio-persona" element={<ServicioPersona />} />
         <Route path="/servicio-evento" element={<ServicioEvento />} />
          <Route path="/medicos" element={<ListaDoctores />} />
+          <Route path="/reclamos" element={<Reclamos />} />
         <Route path="/reserva" element={<ProtectedRoute><Reserva /></ProtectedRoute>} />
         <Route path="/citas" element={<ProtectedRoute><Citas /></ProtectedRoute>} />
       </Routes>
